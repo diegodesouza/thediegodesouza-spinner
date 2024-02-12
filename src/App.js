@@ -1,5 +1,5 @@
 import './App.css';
-import {Spinner} from "./Spinner";
+import {Spinner} from "./Spinner/Spinner";
 
 function App() {
   return (

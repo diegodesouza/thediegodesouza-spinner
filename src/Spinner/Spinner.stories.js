@@ -1,12 +1,12 @@
-import { Spinner } from '../Spinner';
+import { Spinner } from './Spinner';
 
-// More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
+// More on how to set up Spinner at: https://storybook.js.org/docs/writing-stories#default-export
 export default {
-  title: 'Example/Spinner',
+  title: 'Components/Spinner',
   component: Spinner,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
-    layout: 'centered',
+    layout: 'centered'
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
@@ -16,21 +16,21 @@ export default {
   },
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
+// More on writing Spinner with args: https://storybook.js.org/docs/writing-stories/args
 export const Small = {
   args: {
-    size: 'small',
+    size: 'small'
   },
 };
 
 export const Medium = {
   args: {
-    size: 'medium',
+    size: 'medium'
   },
 };
 
 export const Large = {
   args: {
-    size: 'large',
+    size: 'large'
   },
 };
